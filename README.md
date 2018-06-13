@@ -2,7 +2,7 @@
 
 # Challenge Front-End
 
-The challenge has for objective to build a theater management application that will consume the data of an API REST.
+This challenge purpose is to build a theater management application that will use data data of an API REST.
 
 ## Instructions
 The applicant is free to take the challenge with the technology he or she wishes, but we have a preference for VueJS
@@ -26,14 +26,14 @@ Please, confirm below the features that should be implemented in the application
 
   
 # How will we evaluate?
-  * Let's upload the application and access via localhost;
-  * Let's register / edit / delete / update the show;
-  * We will reserve and cancel reservations for the seats;
-  * Let's verify if the amount collected is accurate and correct.
+  * We'll upload the application and access via localhost;
+  * We'll register / edit / delete / update the show;
+  * We'll reserve and cancel reservations for the seats;
+  * We'll verify if the amount collected is accurate and correct.
   
 # Observations
 - Use good practice of GIT;
-- All code in english;
+- All code must be written in English;
   
 # Questions
 
