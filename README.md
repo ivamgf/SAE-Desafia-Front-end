@@ -4,7 +4,7 @@
 
 The challenge has for objective to build a theater management application that will consume the data of an API REST.
 
-## Instruções
+## Instructions
 The applicant is free to take the challenge with the technology he or she wishes, but we have a preference for VueJS
 
 
