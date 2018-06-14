@@ -5,7 +5,7 @@
 This challenge purpose is to build a theater management application that will use data of an REST API.
 
 ## Instructions
-The applicant is free to take the challenge with the technology he or she wishes, but we have a preference for VueJS.
+The applicant is free to take the challenge with the technology as you wishes, but we have a preference for VueJS.
 
 
 Imagine that you are building a public library to publish to your github, then other people have used your library, so it should contain all the necessary details in your README.MD. (Eg: How to install, How to upload, features...)
