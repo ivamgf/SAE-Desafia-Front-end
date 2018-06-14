@@ -2,7 +2,7 @@
 
 # Challenge Front-End
 
-This challenge purpose is to build a theater management application that will use data data of an API REST.
+This challenge purpose is to build a theater management application that will use data of an API REST.
 
 ## Instructions
 The applicant is free to take the challenge with the technology he or she wishes, but we have a preference for VueJS
@@ -20,9 +20,9 @@ The API with all its documentation is available at: http://desafia.sae.digital
 
 ## Resources
 Please, confirm below the features that should be implemented in the application:
-  * Shows;
-  * Armchairs;
-  * Bill;
+  * Shows (http://desafia.sae.digital/api/shows/); 
+  * Armchairs (http://desafia.sae.digital/api/armchairs/);
+  * Bill (http://desafia.sae.digital/api/accounts/);
 
   
 # How will we evaluate?
@@ -34,6 +34,7 @@ Please, confirm below the features that should be implemented in the application
 # Observations
 - Use good practice of GIT;
 - All code must be written in English;
+- Take a look at the endpoint filters, maybe it helps ;)
   
 # Questions
 
