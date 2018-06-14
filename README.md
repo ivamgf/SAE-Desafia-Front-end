@@ -34,7 +34,7 @@ Please, confirm below the features that should be implemented in the application
 # Observations
 - Use good practice of GIT;
 - All code must be written in English;
-- Take a look at the endpoint filters, maybe it helps ;)
+- Take a look at the endpoint filters, it may help you ;)
   
 # Questions
 
