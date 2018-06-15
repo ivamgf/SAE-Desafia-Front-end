@@ -22,7 +22,7 @@ The API with all its documentation is available at: http://desafia.sae.digital
 Please, confirm below the features that should be implemented in the application:
   * Shows (http://desafia.sae.digital/api/shows/); 
   * Armchairs (http://desafia.sae.digital/api/armchairs/);
-  * Bill (http://desafia.sae.digital/api/accounts/);
+  * Bill (http://desafia.sae.digital/api/bills/);
 
   
 # How will we evaluate?
