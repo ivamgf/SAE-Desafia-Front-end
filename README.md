@@ -14,8 +14,11 @@ https://github.com/ivamgf/SAE-Desafia-Front-end
 
 ##3-In the terminal one must enter the following commands for installation and update of packages and frameworks:
 > npm install
+
 > npm install -g bower
+
 > bower install
+
 > npm install -g @ angular / cli
 
 ##4-To compile the project the following command should be typed in the terminal:
