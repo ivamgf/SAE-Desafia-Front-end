@@ -30,6 +30,9 @@ a) Rendering problem in some browsers due to the single-page application paradig
 b) Problem of undefined property in the template. Possible solution is to perform an iteration with for in the component.ts in typescript before doing * ngFor in the template.
 c) Post, put, delete, reserve and cancel buttons do not complete the request due to port 4200 permission. Problem can be solved with CORS configuration in api Back-end or building a web server.
 d) The build was performed but it was not possible to perform the production build due to the errors previously exposed.
+e) The following main dependencies were used in the project:
+Angular 6, Bower, Npm, NodeJS, Bootstrap, Jquery and Sass.
+f) The following features were also used: Microsoft Visual Studio Code, Postman, Swagger, Django, Jasmine, Karma, Protractor and GitKraken.
 
 ## Instructions
 The applicant is free to take the challenge with the technology as you wishes, but we have a preference for VueJS.
