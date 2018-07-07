@@ -21,8 +21,11 @@ https://github.com/ivamgf/SAE-Desafia-Front-end
 
 > npm install -g @ angular / cli
 
-### 4-To compile the project the following command should be typed in the terminal:
+4-To compile the project the following command should be typed in the terminal:
 > ng serves --open
+
+5-To finalize the project it is necessary to use the following in the terminal:
+> Ctrl + c
 
 ### Note:
 The following version of the application has the following errors checked in Unit, Integration and Cross Browser tests:
