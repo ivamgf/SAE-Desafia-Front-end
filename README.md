@@ -7,12 +7,12 @@ This challenge purpose is to build a theater management application that will us
 # Assessment Instructions (Author: Ivam Galvão Filho):
 To test the application you must follow these steps:
 
-### 1-Download the Git application at:
+1-Download the Git application at:
 https://github.com/ivamgf/SAE-Desafia-Front-end
 
-### 2-After extracting the folder you can use any IDE to open the project but, the preference for design in Angular 6 is the use of IDE Visual Studio Code.
+2-After extracting the folder you can use any IDE to open the project but, the preference for design in Angular 6 is the use of IDE Visual Studio Code.
 
-### 3-In the terminal one must enter the following commands for installation and update of packages and frameworks:
+3-In the terminal one must enter the following commands for installation and update of packages and frameworks:
 > npm install
 
 > npm install -g bower
