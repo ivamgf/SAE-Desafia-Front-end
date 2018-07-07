@@ -1,0 +1,66 @@
+<section>
+
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark font-weight-bold">Armchairs List</li>
+        <li class="list-group-item">
+
+            <form *ngFor="let i of getArmchairs.results">
+              <div class="form-group">
+                  <label for="show cod_id">Cod. id:</label>
+                  <input matInput type="number" class="form-control" id="cod_id" [(ngModel)]='i.id' [ngModelOptions]='{standalone: true}' disabled>
+              </div>
+              <div class="form-group">
+                <label for="show cod_id">Number:</label>
+                <input matInput type="number" class="form-control" id="cod_number" [(ngModel)]='i.number' [ngModelOptions]='{standalone: true}' disabled>
+            </div>
+              <div class="form-group">
+                  <label for="show id">id:</label>
+                  <input matInput type="number" class="form-control" id="id" [(ngModel)]='i.show.id' [ngModelOptions]='{standalone: true}' disabled>
+              </div>
+              <div class="form-group">
+                <label for="show name">Show Name:</label>
+                <input matInput type="text" class="form-control" id="name" [(ngModel)]='i.show.name' [ngModelOptions]='{standalone: true}'>
+              </div>
+              <div class="form-group">
+                <label for="desc">Show Description:</label>
+                <textarea matInput class="form-control" rows="2" id="description" [(ngModel)]='i.show.description' [ngModelOptions]='{standalone: true}'></textarea>
+              </div>
+              <div class="form-group">
+                  <label for="show date">Show Date:</label>
+                  <input matInput type="datetime" class="form-control" id="date" [(ngModel)]='i.show.date' [ngModelOptions]='{standalone: true}'>
+              </div>
+              <div class="form-group">
+                  <label for="show number">Number of Armchairs:</label>
+                  <input matInput type="number" class="form-control" id="number" [(ngModel)]='i.show.armchairs_qtd' [ngModelOptions]='{standalone: true}'>
+              </div>
+              <div class="form-group">
+              <label for="status">Status:</label>
+              <select matInput class="form-control" id="status" name="status" [(ngModel)]='i.show.status' [ngModelOptions]='{standalone: true}'>
+                  <option value="Active">Active</option>
+                  <option value="Inactive">Inactive</option>
+              </select>
+              </div>
+              <div class="form-group">
+                <label for="show cost">Cost of Armchairs:</label>
+                <input matInput type="number" class="form-control" id="cost" placeholder="R$ 0.00" [(ngModel)]='i.show.armchairs_qtd * i.show.cost_of_armchair' [ngModelOptions]='{standalone: true}' disabled>
+              </div>
+              <div class="form-group">
+                  <label for="show reservation">Reservation Name:</label>
+                  <input matInput type="text" class="form-control" id="reservation" [(ngModel)]='i.reservation_name' [ngModelOptions]='{standalone: true}'>
+              </div>
+              <div class="form-group">
+                <label for="status">Status Armchairs:</label>
+                <select matInput class="form-control" id="status" name="status_armchairs" [(ngModel)]='i.status' [ngModelOptions]='{standalone: true}'>
+                    <option value="Available">Available</option>
+                    <option value="Unavailable">Unavailable</option>
+                </select>
+              </div>
+            </form>
+        </li>
+        <li class="list-group-item list-group-item-dark font-weight-bold">
+            <button type="submit" class="btn btn-success style-button" routerLink="/reserve">Reserve</button>
+            <button type="submit" class="btn btn-danger style-button" routerLink="/cancel">Cancel</button>
+        </li>
+      </ul>
+
+  </section>
