@@ -29,7 +29,7 @@ https://github.com/ivamgf/SAE-Desafia-Front-end
 
 ### Note:
 The following version of the application has the following errors checked in Unit, Integration and Cross Browser tests:
-a) Rendering problem in some browsers due to the single-page application paradigm used in the AngularJS project. Angular 6 has its own method that has been modified in this project which causes the error.
+a) Rendering problem in some browsers due to the single-page application paradigm used in the AngularJS project. 
 b) Problem of undefined property in the template. Possible solution is to perform an iteration with for in the component.ts in typescript before doing * ngFor in the template.
 c) Post, put, delete, reserve and cancel buttons do not complete the request due to port 4200 permission. Problem can be solved with CORS configuration in api Back-end or building a web server.
 d) The build was performed but it was not possible to perform the production build due to the errors previously exposed.
